@@ -56,4 +56,4 @@ spec:
       volumes:
         - name: config
           configMap:
-            name: {{ include "releasebot.fullname" . }}-env
+            name: {{ include "releasebot.fullname" . }}-config
